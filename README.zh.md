@@ -7,8 +7,8 @@
 **LAVRay** 是基于 [sing-box](https://github.com/SagerNet/sing-box) 内核的 Windows VPN 和代理客户端，是 NekoBox 的继承者。它连接到您的服务器和订阅，并且默认不会向订阅服务商发送任何设备信息。
 
 <p align="center">
-  <img src="docs/screenshots/connect-dark.png" width="49%" alt="“连接”界面，深色主题">
-  <img src="docs/screenshots/connect-light.png" width="49%" alt="“连接”界面，浅色主题">
+  <img src="docs/screenshots/zh/connect-dark.png" width="49%" alt="“连接”界面，深色主题">
+  <img src="docs/screenshots/zh/connect-light.png" width="49%" alt="“连接”界面，浅色主题">
 </p>
 
 - **协议：** VLESS（包括 REALITY）、VMess、Trojan、Shadowsocks、Hysteria2、TUIC、SOCKS、HTTP。
@@ -60,14 +60,14 @@ Get-FileHash .\LAVRay-0.9.2-x64-setup.exe -Algorithm SHA256
 
 ### 服务器
 
-<img src="docs/screenshots/servers.png" alt="“服务器”界面">
+<img src="docs/screenshots/zh/servers.png" alt="“服务器”界面">
 
 - 服务器按国家和订阅分组，支持搜索（`Ctrl+K`）、收藏，以及“低延迟” / “不可达”筛选。
 - “全部测试”用于测量延迟。旁边的 ▾ 菜单中还有：
   - **URL 测试**：通过每台服务器打开真实网页，可以确认服务器是否真正可用，而不仅仅是端口是否有响应。也适用于 Hysteria2/TUIC。
   - **完整测试**：延迟、UDP、下载速度和出口 IP；通过勾选选择要测量的项目（速度测试会通过每台服务器下载文件，因此默认关闭）。
 
-<img src="docs/screenshots/fulltest.png" width="70%" alt="“完整测试”对话框">
+<img src="docs/screenshots/zh/fulltest.png" width="70%" alt="“完整测试”对话框">
 
 测试期间，当前连接不会中断。
 
@@ -85,13 +85,13 @@ Get-FileHash .\LAVRay-0.9.2-x64-setup.exe -Algorithm SHA256
 
 ### 订阅
 
-<img src="docs/screenshots/subscriptions.png" alt="“订阅”界面">
+<img src="docs/screenshots/zh/subscriptions.png" alt="“订阅”界面">
 
 订阅可按计划自动更新，也可手动更新（“全部更新”会显示汇总结果）。更新采用事务方式：如果服务商返回错误或空列表，旧服务器将保留；更新失败的可以“回滚”。
 
 ### 路由规则
 
-<img src="docs/screenshots/routing.png" alt="“规则”界面">
+<img src="docs/screenshots/zh/routing.png" alt="“规则”界面">
 
 内置预设：“全局”、“全部走代理”、“全部直连”、**LAV Preset RU** 和 LAV Preset CN。在屏幕底部可以检查某个地址会走哪条路径。
 
@@ -103,7 +103,7 @@ Get-FileHash .\LAVRay-0.9.2-x64-setup.exe -Algorithm SHA256
 
 ### 设置
 
-<img src="docs/screenshots/settings.png" alt="“设置”界面">
+<img src="docs/screenshots/zh/settings.png" alt="“设置”界面">
 
 语言（Русский、English、中文、Español、Deutsch）、主题、本地代理端口、开机自启、启动时自动连接、“关闭时最小化到托盘”、最小化启动、“通知”、全局快捷键“连接 / 断开”、订阅更新、连接后检查连通性、智能体 (MCP)。
 
@@ -127,7 +127,7 @@ Get-FileHash .\LAVRay-0.9.2-x64-setup.exe -Algorithm SHA256
 
 LAVRay 可通过 [MCP](https://modelcontextprotocol.io) 协议与 AI 智能体协作：您可以让 Claude 或 Cursor 执行“连接到最快的服务器”“检查服务器”“更新订阅”“我现在的 IP 是多少”等操作。
 
-<img src="docs/screenshots/settings-mcp.png" alt="设置 → 智能体 (MCP)">
+<img src="docs/screenshots/zh/settings-mcp.png" alt="设置 → 智能体 (MCP)">
 
 **如何启用**
 

@@ -7,8 +7,8 @@
 **LAVRay** — VPN- und Proxy-Client für Windows auf Basis des [sing-box](https://github.com/SagerNet/sing-box)-Cores, Nachfolger von NekoBox. Er verbindet sich mit deinen Servern und Abos und übermittelt dem Anbieter standardmäßig keinerlei Gerätedaten.
 
 <p align="center">
-  <img src="docs/screenshots/connect-dark.png" width="49%" alt="Bildschirm „Verbindung“, dunkles Design">
-  <img src="docs/screenshots/connect-light.png" width="49%" alt="Bildschirm „Verbindung“, helles Design">
+  <img src="docs/screenshots/de/connect-dark.png" width="49%" alt="Bildschirm „Verbindung“, dunkles Design">
+  <img src="docs/screenshots/de/connect-light.png" width="49%" alt="Bildschirm „Verbindung“, helles Design">
 </p>
 
 - **Protokolle:** VLESS (einschließlich REALITY), VMess, Trojan, Shadowsocks, Hysteria2, TUIC, SOCKS, HTTP.
@@ -60,14 +60,14 @@ Das Schließen des Fensters minimiert LAVRay in den Tray; das lässt sich unter 
 
 ### Server
 
-<img src="docs/screenshots/servers.png" alt="Bildschirm „Server“">
+<img src="docs/screenshots/de/servers.png" alt="Bildschirm „Server“">
 
 - Server werden nach Ländern und Abos gruppiert; es gibt eine Suche (`Ctrl+K`), Favoriten sowie die Filter „Schnelle“ / „Unerreichbar“.
 - „Alle testen“ misst die Latenz. Im Menü ▾ daneben:
   - **URL-Test** — über jeden Server wird eine echte Seite geöffnet: Man sieht, ob der Server tatsächlich funktioniert und nicht nur, ob sein Port antwortet. Geeignet auch für Hysteria2/TUIC.
   - **Voller Test** — Latenz, UDP, Download-Geschwindigkeit und Austritts-IP; mit Häkchen wählst du aus, was gemessen wird (die Geschwindigkeit lädt eine Datei über jeden Server herunter, daher ist sie standardmäßig aus).
 
-<img src="docs/screenshots/fulltest.png" width="70%" alt="Dialog „Voller Test“">
+<img src="docs/screenshots/de/fulltest.png" width="70%" alt="Dialog „Voller Test“">
 
 Während der Tests wird die aktuelle Verbindung nicht unterbrochen.
 
@@ -85,13 +85,13 @@ Die Geschwindigkeit in der Statusleiste und das Diagramm auf dem Bildschirm „V
 
 ### Abos
 
-<img src="docs/screenshots/subscriptions.png" alt="Bildschirm „Abos“">
+<img src="docs/screenshots/de/subscriptions.png" alt="Bildschirm „Abos“">
 
 Abos werden nach Zeitplan und manuell aktualisiert („Alle aktualisieren“ zeigt das Ergebnis). Die Aktualisierung läuft transaktional ab: Liefert der Anbieter einen Fehler oder eine leere Liste, bleiben die alten Server erhalten; eine fehlgeschlagene Aktualisierung kannst du mit „Zurücksetzen“ rückgängig machen.
 
 ### Routing-Regeln
 
-<img src="docs/screenshots/routing.png" alt="Bildschirm „Regeln“">
+<img src="docs/screenshots/de/routing.png" alt="Bildschirm „Regeln“">
 
 Integrierte Presets: „Global“, „Alles durch den Proxy“, „Alles direkt“, **LAV Preset RU** und LAV Preset CN. Unten auf dem Bildschirm kannst du prüfen, wohin eine bestimmte Adresse geht.
 
@@ -103,7 +103,7 @@ Die Leck-Prüfung (IP über den Tunnel und direkt, DNS, IPv6) findest du direkt 
 
 ### Einstellungen
 
-<img src="docs/screenshots/settings.png" alt="Bildschirm „Einstellungen“">
+<img src="docs/screenshots/de/settings.png" alt="Bildschirm „Einstellungen“">
 
 Sprache (Русский, English, 中文, Español, Deutsch), Design, Port des lokalen Proxys, Autostart, automatische Verbindung beim Start, „Beim Schließen in den Tray minimieren“, Start minimiert, „Benachrichtigungen“, das globale Kürzel „Verbinden / Trennen“, Abo-Aktualisierung, Verbindungsprüfung nach dem Verbinden, Agenten (MCP).
 
@@ -127,7 +127,7 @@ Verlangt der Anbieter eine HWID, kannst du sie in den Abo-Einstellungen aktivier
 
 LAVRay kann mit KI-Agenten über das [MCP](https://modelcontextprotocol.io)-Protokoll arbeiten: Du kannst Claude oder Cursor bitten: „verbinde dich mit dem schnellsten Server“, „prüfe die Server“, „aktualisiere die Abos“, „welche IP habe ich gerade?“.
 
-<img src="docs/screenshots/settings-mcp.png" alt="Einstellungen → Agenten (MCP)">
+<img src="docs/screenshots/de/settings-mcp.png" alt="Einstellungen → Agenten (MCP)">
 
 **So aktivierst du es**
 

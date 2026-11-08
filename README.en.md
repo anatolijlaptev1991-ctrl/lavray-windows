@@ -7,8 +7,8 @@
 **LAVRay** is a VPN and proxy client for Windows built on the [sing-box](https://github.com/SagerNet/sing-box) core, the successor to NekoBox. It connects to your servers and subscriptions and, by default, does not send the subscription provider any data about your device.
 
 <p align="center">
-  <img src="docs/screenshots/connect-dark.png" width="49%" alt="Connection screen, dark theme">
-  <img src="docs/screenshots/connect-light.png" width="49%" alt="Connection screen, light theme">
+  <img src="docs/screenshots/en/connect-dark.png" width="49%" alt="Connection screen, dark theme">
+  <img src="docs/screenshots/en/connect-light.png" width="49%" alt="Connection screen, light theme">
 </p>
 
 - **Protocols:** VLESS (including REALITY), VMess, Trojan, Shadowsocks, Hysteria2, TUIC, SOCKS, HTTP.
@@ -60,14 +60,14 @@ Closing the window minimizes LAVRay to the tray; you can turn this off in "Setti
 
 ### Servers
 
-<img src="docs/screenshots/servers.png" alt="Servers screen">
+<img src="docs/screenshots/en/servers.png" alt="Servers screen">
 
 - Servers are grouped by country and subscription. There is search (`Ctrl+K`), favorites, and the filters "Fast" / "Unreachable".
 - "Test all" measures latency. The ▾ menu next to it has:
   - **URL test** — a real page is opened through each server, so you can see whether the server actually works, not just whether its port responds. It also works for Hysteria2/TUIC.
   - **Full test** — latency, UDP, download speed and exit IP; check boxes select what to measure (the speed test downloads a file through each server, so it is off by default).
 
-<img src="docs/screenshots/fulltest.png" width="70%" alt="Full test dialog">
+<img src="docs/screenshots/en/fulltest.png" width="70%" alt="Full test dialog">
 
 The current connection is not interrupted while tests are running.
 
@@ -85,13 +85,13 @@ The speed in the status bar and the chart on the "Connection" screen show real t
 
 ### Subscriptions
 
-<img src="docs/screenshots/subscriptions.png" alt="Subscriptions screen">
+<img src="docs/screenshots/en/subscriptions.png" alt="Subscriptions screen">
 
 Subscriptions update on a schedule and manually ("Update all" shows a summary). Updates are transactional: if the provider returns an error or an empty list, the old servers are kept; a failed update can be rolled back with "Roll back".
 
 ### Routing rules
 
-<img src="docs/screenshots/routing.png" alt="Rules screen">
+<img src="docs/screenshots/en/routing.png" alt="Rules screen">
 
 Built-in presets: "Global", "Route everything through the proxy", "Route everything directly", **LAV Preset RU** and LAV Preset CN. At the bottom of the screen you can check where a specific address will go.
 
@@ -103,7 +103,7 @@ The leak check (IP through the tunnel and directly, DNS, IPv6) is available righ
 
 ### Settings
 
-<img src="docs/screenshots/settings.png" alt="Settings screen">
+<img src="docs/screenshots/en/settings.png" alt="Settings screen">
 
 Language (Русский, English, 中文, Español, Deutsch), theme, local proxy port, autostart, auto-connect at startup, "Minimize to tray on close", start minimized, "Notifications", the global shortcut for "Connect / disconnect", subscription updates, connectivity check after connecting, agents (MCP).
 
@@ -127,7 +127,7 @@ If the provider requires an HWID, it can be enabled in the subscription settings
 
 LAVRay can work with AI agents over the [MCP](https://modelcontextprotocol.io) protocol: you can ask Claude or Cursor to connect you to the fastest server, check the servers, refresh subscriptions, or tell you your current IP.
 
-<img src="docs/screenshots/settings-mcp.png" alt="Settings → Agents (MCP)">
+<img src="docs/screenshots/en/settings-mcp.png" alt="Settings → Agents (MCP)">
 
 **How to enable**
 

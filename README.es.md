@@ -7,8 +7,8 @@
 **LAVRay** — cliente VPN y proxy para Windows sobre el núcleo [sing-box](https://github.com/SagerNet/sing-box), sucesor de NekoBox. Se conecta a tus servidores y suscripciones y, por defecto, no envía al proveedor de la suscripción ningún dato sobre el dispositivo.
 
 <p align="center">
-  <img src="docs/screenshots/connect-dark.png" width="49%" alt="Pantalla «Conexión», tema oscuro">
-  <img src="docs/screenshots/connect-light.png" width="49%" alt="Pantalla «Conexión», tema claro">
+  <img src="docs/screenshots/es/connect-dark.png" width="49%" alt="Pantalla «Conexión», tema oscuro">
+  <img src="docs/screenshots/es/connect-light.png" width="49%" alt="Pantalla «Conexión», tema claro">
 </p>
 
 - **Protocolos:** VLESS (incluido REALITY), VMess, Trojan, Shadowsocks, Hysteria2, TUIC, SOCKS, HTTP.
@@ -60,14 +60,14 @@ Al cerrar la ventana, LAVRay se minimiza a la bandeja; esto se puede desactivar 
 
 ### Servidores
 
-<img src="docs/screenshots/servers.png" alt="Pantalla «Servidores»">
+<img src="docs/screenshots/es/servers.png" alt="Pantalla «Servidores»">
 
 - Los servidores se agrupan por país y suscripción; hay búsqueda (`Ctrl+K`), favoritos y los filtros «Rápidos» / «Inaccesibles».
 - «Probar todos» mide la latencia. En el menú ▾ junto al botón:
   - **Prueba de URL**: se abre una página real a través de cada servidor, así se ve si el servidor funciona de verdad y no solo si su puerto responde. También sirve para Hysteria2/TUIC.
   - **Prueba completa**: latencia, UDP, velocidad de descarga e IP de salida; con las casillas eliges qué medir (la velocidad descarga un archivo a través de cada servidor, por eso viene desactivada por defecto).
 
-<img src="docs/screenshots/fulltest.png" width="70%" alt="Diálogo «Prueba completa»">
+<img src="docs/screenshots/es/fulltest.png" width="70%" alt="Diálogo «Prueba completa»">
 
 Durante las pruebas, la conexión actual no se interrumpe.
 
@@ -85,13 +85,13 @@ La velocidad en la barra de estado y el gráfico de la pantalla «Conexión» mu
 
 ### Suscripciones
 
-<img src="docs/screenshots/subscriptions.png" alt="Pantalla «Suscripciones»">
+<img src="docs/screenshots/es/subscriptions.png" alt="Pantalla «Suscripciones»">
 
 Las suscripciones se actualizan según un horario y manualmente («Actualizar todo» muestra el resumen). La actualización es transaccional: si el proveedor devuelve un error o una lista vacía, los servidores antiguos se conservan; una actualización fallida se puede «Revertir».
 
 ### Reglas de enrutamiento
 
-<img src="docs/screenshots/routing.png" alt="Pantalla «Reglas»">
+<img src="docs/screenshots/es/routing.png" alt="Pantalla «Reglas»">
 
 Conjuntos integrados: «Global», «Todo por el proxy», «Todo directo», **LAV Preset RU** y LAV Preset CN. En la parte inferior de la pantalla puedes comprobar por dónde irá una dirección concreta.
 
@@ -103,7 +103,7 @@ La comprobación de fugas (IP a través del túnel y directa, DNS, IPv6) está d
 
 ### Ajustes
 
-<img src="docs/screenshots/settings.png" alt="Pantalla «Ajustes»">
+<img src="docs/screenshots/es/settings.png" alt="Pantalla «Ajustes»">
 
 Idioma (Русский, English, 中文, Español, Deutsch), tema, puerto del proxy local, arranque automático, conexión automática al iniciar, «Minimizar a la bandeja al cerrar», inicio minimizado, «Notificaciones», atajo global «Conectar / desconectar», actualización de suscripciones, comprobación de la conexión tras conectar, agentes (MCP).
 
@@ -127,7 +127,7 @@ Si el proveedor exige HWID, se puede activar en los ajustes de suscripciones («
 
 LAVRay puede trabajar con agentes de IA mediante el protocolo [MCP](https://modelcontextprotocol.io): puedes pedirle a Claude o Cursor «conéctate al servidor más rápido», «comprueba los servidores», «actualiza las suscripciones», «¿cuál es ahora mi IP?».
 
-<img src="docs/screenshots/settings-mcp.png" alt="Ajustes → Agentes (MCP)">
+<img src="docs/screenshots/es/settings-mcp.png" alt="Ajustes → Agentes (MCP)">
 
 **Cómo activarlo**
 
