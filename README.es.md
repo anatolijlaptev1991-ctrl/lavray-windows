@@ -12,7 +12,7 @@
 </p>
 
 - **Protocolos:** VLESS (incluido REALITY), VMess, Trojan, Shadowsocks, Hysteria2, TUIC, SOCKS, HTTP.
-- **Dos modos, que se pueden usar a la vez.** Proxy del sistema: para navegadores y la mayoría de programas. TUN: para todo el tráfico del equipo, incluidos los juegos y las consolas.
+- **Dos modos, que se pueden usar a la vez.** Proxy del sistema: para navegadores y la mayoría de programas. TUN: para todo el tráfico del equipo, incluidos los juegos y las herramientas de consola.
 - **Suscripciones** con actualización automática, comprobación de servidores (latencia, prueba de URL, prueba completa), conjuntos de reglas de enrutamiento listos para usar, incluido «LAV Preset RU» (sitios rusos directos, el resto a través de la VPN).
 - **Agentes (MCP):** Claude, Cursor y otros agentes de IA pueden consultar el estado y, si lo permites, conectar o cambiar de servidor. Consulta la [sección siguiente](#agentes-mcp).
 

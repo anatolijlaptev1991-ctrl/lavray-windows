@@ -12,7 +12,7 @@
 </p>
 
 - **Protokolle:** VLESS (einschließlich REALITY), VMess, Trojan, Shadowsocks, Hysteria2, TUIC, SOCKS, HTTP.
-- **Zwei Modi, auch beide gleichzeitig.** Systemproxy — für Browser und die meisten Programme. TUN — für den gesamten Datenverkehr des Computers, einschließlich Spiele und Konsolen.
+- **Zwei Modi, auch beide gleichzeitig.** Systemproxy — für Browser und die meisten Programme. TUN — für den gesamten Datenverkehr des Computers, einschließlich Spiele und Konsolenwerkzeuge.
 - **Abos** mit automatischer Aktualisierung, Servertests (Latenz, URL-Test, vollständiger Test), fertige Routing-Regelsätze, darunter „LAV Preset RU“ (russische Seiten direkt, der Rest über das VPN).
 - **Agenten (MCP):** Claude, Cursor und andere KI-Agenten können den Status abfragen und, wenn du es erlaubst, einen Server verbinden oder wechseln. Siehe [Abschnitt unten](#agenten-mcp).
 
