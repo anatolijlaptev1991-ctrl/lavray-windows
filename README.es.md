@@ -33,7 +33,7 @@ La última versión está en la página de [Releases](../../releases/latest):
 **Las compilaciones todavía no están firmadas.** Al primer inicio, Windows SmartScreen puede mostrar «Windows protegió su PC»: pulsa «Más información» → «Ejecutar de todas formas». La autenticidad del archivo se puede comprobar con la suma de control:
 
 ```powershell
-Get-FileHash .\LAVRay-0.9.2-x64-setup.exe -Algorithm SHA256
+Get-FileHash .\LAVRay-0.9.3-x64-setup.exe -Algorithm SHA256
 ```
 
 El resultado debe coincidir con la línea de `SHA256SUMS.txt` de la misma versión.
@@ -93,7 +93,7 @@ Las suscripciones se actualizan según un horario y manualmente («Actualizar to
 
 <img src="docs/screenshots/es/routing.png" alt="Pantalla «Reglas»">
 
-Conjuntos integrados: «Global», «Todo por el proxy», «Todo directo», **LAV Preset RU** y LAV Preset CN. En la parte inferior de la pantalla puedes comprobar por dónde irá una dirección concreta.
+Conjuntos integrados: «Global», «Todo por el proxy», «Todo directo», **LAV Preset RU** (predeterminado en instalaciones nuevas) y LAV Preset CN. En la parte inferior de la pantalla puedes comprobar por dónde irá una dirección concreta.
 
 Tus propios conjuntos: «Preset nuevo», «Duplicar», «Renombrar», «Exportar preset» / «Importar preset» (incluidas las rutas de NekoRay), seis listas de reglas y reglas de procesos. Un conjunto integrado no cambia: al editarlo se crea una copia, y «Restablecer al original» devuelve esa copia a la versión integrada.
 

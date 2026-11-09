@@ -33,7 +33,7 @@ The latest version is on the [Releases](../../releases/latest) page:
 **The builds are not signed yet.** On first launch, Windows SmartScreen may show "Windows protected your PC" — click "More info" → "Run anyway". You can verify the file's authenticity by its checksum:
 
 ```powershell
-Get-FileHash .\LAVRay-0.9.2-x64-setup.exe -Algorithm SHA256
+Get-FileHash .\LAVRay-0.9.3-x64-setup.exe -Algorithm SHA256
 ```
 
 The result must match the line in `SHA256SUMS.txt` of the same release.
@@ -93,7 +93,7 @@ Subscriptions update on a schedule and manually ("Update all" shows a summary). 
 
 <img src="docs/screenshots/en/routing.png" alt="Rules screen">
 
-Built-in presets: "Global", "Route everything through the proxy", "Route everything directly", **LAV Preset RU** and LAV Preset CN. At the bottom of the screen you can check where a specific address will go.
+Built-in presets: "Global", "Route everything through the proxy", "Route everything directly", **LAV Preset RU** (the default on new installs) and LAV Preset CN. At the bottom of the screen you can check where a specific address will go.
 
 Custom presets: "New preset", "Duplicate", "Rename", "Export preset" / "Import preset" (including NekoRay routes), six rule lists and process rules. A built-in preset cannot be changed: editing creates a copy, and "Reset to original" returns the copy to the built-in version.
 

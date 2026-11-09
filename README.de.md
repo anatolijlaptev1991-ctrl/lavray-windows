@@ -33,7 +33,7 @@ Die neueste Version findest du auf der Seite [Releases](../../releases/latest):
 **Die Builds sind noch nicht signiert.** Beim ersten Start zeigt Windows SmartScreen möglicherweise „Der Computer wurde durch Windows geschützt“ an — klicke auf „Weitere Informationen“ → „Trotzdem ausführen“. Die Echtheit der Datei kannst du anhand der Prüfsumme überprüfen:
 
 ```powershell
-Get-FileHash .\LAVRay-0.9.2-x64-setup.exe -Algorithm SHA256
+Get-FileHash .\LAVRay-0.9.3-x64-setup.exe -Algorithm SHA256
 ```
 
 Das Ergebnis muss mit der Zeile in `SHA256SUMS.txt` desselben Releases übereinstimmen.
@@ -93,7 +93,7 @@ Abos werden nach Zeitplan und manuell aktualisiert („Alle aktualisieren“ zei
 
 <img src="docs/screenshots/de/routing.png" alt="Bildschirm „Regeln“">
 
-Integrierte Presets: „Global“, „Alles durch den Proxy“, „Alles direkt“, **LAV Preset RU** und LAV Preset CN. Unten auf dem Bildschirm kannst du prüfen, wohin eine bestimmte Adresse geht.
+Integrierte Presets: „Global“, „Alles durch den Proxy“, „Alles direkt“, **LAV Preset RU** (Standard bei Neuinstallationen) und LAV Preset CN. Unten auf dem Bildschirm kannst du prüfen, wohin eine bestimmte Adresse geht.
 
 Eigene Presets: „Neues Preset“, „Duplizieren“, „Umbenennen“, „Preset exportieren“ / „Preset importieren“ (einschließlich NekoRay-Routen), sechs Regellisten und Prozessregeln. Ein integriertes Preset bleibt unverändert: Eine Bearbeitung erstellt eine Kopie, und „Auf Original zurücksetzen“ setzt die Kopie wieder auf das integrierte Preset zurück.
 

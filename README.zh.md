@@ -33,7 +33,7 @@
 **构建版本尚未签名。** 首次运行时，Windows SmartScreen 可能会显示“Windows 已保护你的电脑”——点击“更多信息” → “仍要运行”。您可以通过校验和验证文件的真实性：
 
 ```powershell
-Get-FileHash .\LAVRay-0.9.2-x64-setup.exe -Algorithm SHA256
+Get-FileHash .\LAVRay-0.9.3-x64-setup.exe -Algorithm SHA256
 ```
 
 结果应与同一发布版本中 `SHA256SUMS.txt` 的对应行一致。
@@ -93,7 +93,7 @@ Get-FileHash .\LAVRay-0.9.2-x64-setup.exe -Algorithm SHA256
 
 <img src="docs/screenshots/zh/routing.png" alt="“规则”界面">
 
-内置预设：“全局”、“全部走代理”、“全部直连”、**LAV Preset RU** 和 LAV Preset CN。在屏幕底部可以检查某个地址会走哪条路径。
+内置预设：“全局”、“全部走代理”、“全部直连”、**LAV Preset RU**（新安装的默认预设）和 LAV Preset CN。在屏幕底部可以检查某个地址会走哪条路径。
 
 自定义预设：“新建预设”、“复制”、“重命名”、“导出预设” / “导入预设”（包括 NekoRay 路由）、六个规则列表以及进程规则。内置预设不会被修改：编辑会创建副本，而“重置为原始预设”可将副本恢复为内置预设的内容。
 
